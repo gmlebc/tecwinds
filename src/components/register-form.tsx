@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 
 export function RegisterForm({
     className,
-    onClick, // Função para alternar para o LoginForm
+    onClick,
     ...props
 }: React.ComponentProps<"form"> & { onClick: () => void }) {
     return (
@@ -46,7 +46,7 @@ export function RegisterForm({
                 <a
                     href="#"
                     className="underline underline-offset-4"
-                    onClick={onClick} // Alterna para o LoginForm
+                    onClick={onClick}
                 >
                     Logar
                 </a>
