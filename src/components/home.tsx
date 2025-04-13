@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <div className="flex min-h-screen b-0 ">
 
-            <div className="flex-1 flex flex-col md:p-10 content-center justify-evenly items-center">
+            <div className="flex-1 flex flex-col md:p-10 content-center justify-evenly items-center ">
                 <div className="flex justify-center gap-2 md:justify-start ">
                     <a href="#" className="flex items-center text-2xl font-bold ">
                         TecWinds
@@ -34,13 +34,13 @@ export default function Home() {
             </div>
 
 
-            <div className="relative hidden lg:block overflow-y-hidden flex-1">
+            <div className="relative hidden lg:block overflow-y-hidden flex-1 ">
                 <img
-                    src="14.jpg"
+                    src="9.jpg"
                     alt="Image"
                     className="rounded-sm grayscale-10 absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
                 />
-                <div className="absolute inset-0 -left-1 z-999 bg-gradient-to-r from-white via-transparent via-30% to-black to-110% opacity-100"></div>
+                <div className="absolute right-0 inset-0 -left-1 z-999 bg-gradient-to-r from-white via-transparent from-10% to-black to-110% opacity-100"></div>
             </div>
 
         </div>
