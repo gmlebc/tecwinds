@@ -11,7 +11,7 @@ export function RegisterForm({
     return (
         <form className={cn("flex flex-col gap-3", className)} {...props}>
             <div className="flex flex-col items-center gap-2 text-center">
-                <h1 className="text-2xl font-bold">Criar uma conta</h1>
+                <h1 className="text-xl font-bold">Criar uma conta</h1>
                 <p className="text-muted-foreground text-sm text-balance">
                     Preencha os campos abaixo para criar sua conta
                 </p>
