@@ -11,10 +11,10 @@ export function LoginForm({
   return (
     <form className={cn("flex flex-col gap-6 shadow-2xl shadow-xl/30 inset-shadow-2xl", className)} {...props}>
       <div className="flex flex-col items-center gap-2 text-center">
-        <h1 className="text-2xl font-bold">Logar com sua conta</h1>
+        <h1 className="text-xl font-bold">Logar com sua conta</h1>
         <p className="text-muted-foreground text-sm text-balance">
           Insira seu e-mail abaixo para fazer login em sua conta
-        </p>
+        </p>  
       </div>
       <div className="grid gap-6">
         <div className="grid gap-3">

@@ -4,8 +4,8 @@ import Home from "./components/home";
 function App() {
   return (
     <>
-    <Home />
-    {/* <Dashboard />  */}
+    {/* <Home /> */}
+    <Dashboard /> 
     </>
   );
 }

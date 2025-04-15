@@ -29,8 +29,8 @@ export default function Dashboard() {
 
                         <div className="aspect-video rounded-xl bg-muted/50 border-2  shadow-xl" />
                         <div className="aspect-video rounded-xl bg-muted/50 border-2  shadow-xl" />
-                        {/* <div className="aspect-video rounded-xl bg-muted/50 border-2  shadow-xl" />
-                        <div className="aspect-video rounded-xl bg-muted/50 border-2  shadow-xl" /> */}
+                        <div className="aspect-video rounded-xl bg-muted/50 border-2  shadow-xl" />
+                        <div className="aspect-video rounded-xl bg-muted/50 border-2  shadow-xl" />
                     </div>
 
                     <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min border-2 shadow-xl" />

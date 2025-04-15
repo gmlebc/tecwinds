@@ -39,7 +39,7 @@ export default function Home() {
                 <img
                     src="14.jpg"
                     alt="Image"
-                    className="rounded-sm absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
+                    className="rounded-sm absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale grayscale-80"
                 />
                 <div className="absolute right-0 inset-0 -left-1 z-10 bg-gradient-to-r from-white via-transparent from-10% to-transparent to-110% opacity-100"></div>
             </div>
